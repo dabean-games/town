@@ -8,7 +8,7 @@ export class GameService {
   gameData={
     resources:{
       food:0,
-      wood:0,
+      wood:10,
       stone:0,
       gold:0
     },
