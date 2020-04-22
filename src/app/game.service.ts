@@ -10,7 +10,7 @@ export class GameService {
       food: {
         quantity: 5,
         url:
-          "https://cdn.jsdelivr.net/gh/dabean-games/town@master/src/assets/images/icons/resources/wd_t_07.png",
+          "https://cdn.jsdelivr.net/gh/dabean-games/town@master/src/assets/images/icons/resources/food.png",
           alt: "Food"
       },
       wood: {
