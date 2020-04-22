@@ -11,25 +11,29 @@ export class GameService {
         quantity: 5,
         url:
           "https://raw.githubusercontent.com/dabean-games/town/master/src/assets/images/icons/resources/food.png",
-          alt: "Food"
+          alt: "Food",
+          title: "Food"
       },
       wood: {
         quantity: 10,
         url:
-          "https://cdn.jsdelivr.net/gh/dabean-games/town@master/src/assets/images/icons/resources/wd_t_07.png",
-          alt: "Wood"
+          "https://raw.githubusercontent.com/dabean-games/town/master/src/assets/images/icons/resources/wood.png",
+          alt: "Wood",
+          title: "Wood"
       },
       stone: {
         quantity: 15,
         url:
-          "https://cdn.jsdelivr.net/gh/dabean-games/town@master/src/assets/images/icons/resources/wd_t_07.png",
-          alt: "Stone"
+          "https://raw.githubusercontent.com/dabean-games/town/master/src/assets/images/icons/resources/stone.png",
+          alt: "Stone",
+          title: "Stone"
       },
       gold: {
         quantity: 1000,
         url:
-          "https://cdn.jsdelivr.net/gh/dabean-games/town@master/src/assets/images/icons/resources/wd_t_07.png",
-          alt: "Gold"
+          "https://raw.githubusercontent.com/dabean-games/town/master/src/assets/images/icons/resources/gold_coins.png",
+          alt: "Gold",
+          title: "Gold"
       }
     },
     language: "en"

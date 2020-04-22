@@ -1,18 +1,19 @@
 <div class="top-bar">
 	<div class="top-bar-resource">
 		{{food.quantity}}x
-		<img class="top-bar-resource-icon" title="{{food.alt}}" alt="{{food.alt}}" src="{{food.url}}">
+		<img class="top-bar-resource-icon" title="{{ food.title | translate }}" alt="{{ food.alt | translate }}" src="{{food.url}}">
   </div>
 	<div class="top-bar-resource">
 		{{wood.quantity}}x
-		<img class="top-bar-resource-icon" title="{{wood.alt}}" alt="{{wood.alt}}" src="{{wood.url}}">
+		<img class="top-bar-resource-icon" title="{{ wood.title | translate }}" alt="{{ wood.alt | translate }}" src="{{wood.url}}">
   </div>
 	<div class="top-bar-resource">
 		{{stone.quantity}}x
-		<img class="top-bar-resource-icon" title="{{stone.alt}}" alt="{{stone.alt}}" src="{{stone.url}}">
+		<img class="top-bar-resource-icon" title="{{ wood.title | translate }}" alt="{{stone.alt}}" src="{{stone.url}}">
   </div>
 	<div class="top-bar-resource">
 		{{gold.quantity}}x
-		<img class="top-bar-resource-icon" title="{{gold.alt}}" alt="{{gold.alt}}" src="{{gold.url}}">
+		<img class="top-bar-resource-icon" title="{{ gold.title | translate }}" alt="{{ gold.alt | translate }}" src="{{gold.url}}">
   </div>
+  
 	</div>

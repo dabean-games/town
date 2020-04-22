@@ -2,5 +2,9 @@
     "GameTitle": "Town Idle",
     "New Game": "New Game",
     "Continue": "Continue",
-    "Import": "Import"
+    "Import": "Import",
+    "Food": "Food",
+    "Wood": "Wood",
+    "Stone": "Stone",
+    "Gold": "Gold"
 }
