@@ -57,6 +57,12 @@ export class GameService {
   setResource(resource: string, quantity: number) {
     this.gameData.resources[resource] = quantity;
   }
+  getResourceQuantity(resource: string) {
+    return this.gameData.resources[resource].quantity;
+  }
+  setResourceQuantity(resource: string, quantity: number) {
+    this.gameData.resources[resource].quantity = quantity;
+  }
 
   /* Language */
   getLanguages() {
