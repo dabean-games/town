@@ -1,0 +1,15 @@
+
+<div>
+<button (click)="selectOption('newGame')">{{'New Game' | translate}}</button>
+<select class="form-control" #selectedLang (change)="switchLang(selectedLang.value)">
+  <option *ngFor="let language of translate.getLangs()" [value]="language" 
+  [selected]="language === translate.currentLang">
+    {{ language }}
+  </option>
+</select>
+<br>
+<button (click)="selectOption('continue')">{{'Continue' | translate}}</button><br>
+<button (click)="selectOption('import')">{{'Import' | translate}}</button><br>
+
+Sigue sin haber nada, no mires, Nao!
+<div>
