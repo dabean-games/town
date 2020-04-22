@@ -1,7 +1,18 @@
 <div class="top-bar">
-  {{wood}}x
-  <img class="top-bar-icon" title="Wood" alt="Wood" src="https://cdn.jsdelivr.net/gh/dabean-games/town@master/src/assets/images/icons/resources/wd_t_07.png">
-  {{wood}}x
-  <img class="top-bar-icon" title="Wood" alt="Wood" src="./wd_t_07.png">
-  
-</div>
+	<div class="top-bar-resource">
+		{{food.quantity}}x
+		<img class="top-bar-resource-icon" title="{{food.alt}}" alt="{{food.alt}}" src="{{food.url}}">
+  </div>
+	<div class="top-bar-resource">
+		{{wood.quantity}}x
+		<img class="top-bar-resource-icon" title="{{wood.alt}}" alt="{{wood.alt}}" src="{{wood.url}}">
+  </div>
+	<div class="top-bar-resource">
+		{{stone.quantity}}x
+		<img class="top-bar-resource-icon" title="{{stone.alt}}" alt="{{stone.alt}}" src="{{stone.url}}">
+  </div>
+	<div class="top-bar-resource">
+		{{gold.quantity}}x
+		<img class="top-bar-resource-icon" title="{{gold.alt}}" alt="{{gold.alt}}" src="{{gold.url}}">
+  </div>
+	</div>

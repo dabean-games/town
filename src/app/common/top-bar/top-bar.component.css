@@ -1,7 +1,8 @@
 .top-bar{
   width:100%;
   border: 1px solid black;
+  display:flex;
 }
-.top-bar-icon{
+.top-bar-resource-icon{
   height: 25px;
 }
