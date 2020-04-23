@@ -4,7 +4,7 @@ import { TranslateService } from "@ngx-translate/core";
 @Injectable({
   providedIn: "root"
 })
-export class GameService {
+export class GameDataService {
   gameData = {
     resources: {
       food: {

@@ -1,6 +1,6 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { GameService } from '../game.service';
+import { GameDataService } from '../game-data.service';
 
 @Component({
   selector: 'main-menu',
@@ -11,13 +11,13 @@ export class MainMenuComponent implements OnInit {
   @Output() optionSelected= new EventEmitter<string>();
   constructor(
     public translate: TranslateService,
-    public gameService: GameService) { }
+    public gameDataService: GameDataService) { }
 
   ngOnInit() {
   }
 
   switchLang(lang: string) {
-    this.gameService.setLanguage(lang);
+    this.gameDataService.setLanguage(lang);
   }
 
   selectOption(optionSelected){

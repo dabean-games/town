@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { GameService } from './game.service';
+import { GameDataService } from './game-data.service';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { GameComponent } from './game/game.component';
 import { TopBarComponent } from './common/top-bar/top-bar.component';
@@ -23,7 +23,7 @@ import { TopBarComponent } from './common/top-bar/top-bar.component';
     })],
   declarations: [ AppComponent, MainMenuComponent, GameComponent, TopBarComponent ],
   bootstrap:    [ AppComponent ],
-  providers: [ GameService]
+  providers: [ GameDataService]
 })
 export class AppModule {
 }

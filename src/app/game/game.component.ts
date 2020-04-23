@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GameService } from '../game.service';
+import { GameDataService } from '../game-data.service';
 
 @Component({
   selector: 'game',
@@ -8,13 +8,13 @@ import { GameService } from '../game.service';
 })
 export class GameComponent implements OnInit {
 
-  constructor(public gameService: GameService) { }
+  constructor(public gameDataService: GameDataService) { }
 
   ngOnInit() {
   }
   mas(){
     console.log("Hola");
-    this.gameService.setResourceQuantity("wood",this.gameService.getResourceQuantity("wood")+1);
-    console.log(this.gameService.getResource("wood"));
+    this.gameDataService.setResourceQuantity("wood",this.gameDataService.getResourceQuantity("wood")+1);
+    console.log(this.gameDataService.getResource("wood"));
   }
 }
